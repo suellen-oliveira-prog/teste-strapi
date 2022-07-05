@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modulo_de_permissoes_oms",
+  "info": {
+    "singularName": "modulo-de-permissoes",
+    "pluralName": "modulo-de-permissoes-oms",
+    "displayName": "Módulo de Permissões - Cabeçalho",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Plataforma": {
+      "type": "string",
+      "required": true
+    },
+    "Ordem": {
+      "type": "integer",
+      "required": true
+    },
+    "Descricao": {
+      "type": "richtext",
+      "required": true
+    },
+    "ResultadoEsperado": {
+      "type": "richtext",
+      "required": true
+    },
+    "Passou": {
+      "type": "boolean",
+      "required": true
+    },
+    "Observacoes": {
+      "type": "richtext"
+    }
+  }
+}
